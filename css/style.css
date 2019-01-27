@@ -1,0 +1,170 @@
+  #nav-home {
+    font-family: Rochester;
+    color: rgb(113, 15, 194);
+    font-size: 30px;
+  }
+
+  #codeimg{
+    z-index: 900;
+  }
+
+  #about {
+    width: 100vw;
+    position: relative;
+    /*Trick to make the bacground fill the whole width*/
+    left: 50%;
+    margin-left: -50vw;
+    padding-bottom: 5vh;
+    overflow: hidden;
+    top:-40em;
+  }
+
+  #about img {
+    /*this changes the size of my photo*/
+    width: auto;
+    height: 40vh;
+    margin: auto;
+    margin-bottom: 3vh;
+    float: left;
+  }
+
+  #codeheader{
+    background-image: url('../images/code.jpg');
+    width: 100vw;
+    height:30vw;
+    opacity: 0.6;
+    position: relative;
+    top:5em;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+    height: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index:999;    
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    
+  }
+
+
+  .left {
+    text-align: left;
+  }
+  .parag {
+    font-size: 30px;
+    color: #000000; 
+    margin-right: 15px;
+    position: relative;
+    left: 20px;
+  }
+  .content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+    top: -43em;
+  }
+  .round-image {
+    border-radius: 50%;      
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(136, 136, 136, 0.3);
+    color: purple;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  h1 {
+    font-family: 'Arvo'; /* Fuente de google para los encabezados. */
+    font-size: 3em;
+    color: #000000;
+    font-weight: bold;
+    
+  }
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover {
+      background-color: rgba(117, 117, 117, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid rgb(129, 9, 153);
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: rgb(211, 211, 211);
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+      color: purple;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+
+    }
+    .nav > #nav-check:not(:checked) + .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked + .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
