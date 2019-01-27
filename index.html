@@ -1,57 +1,182 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="This is my CV website">
-    <meta name="author" content="Yesid Bejarano Camacho">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link id="favicon" rel="icon" href="images/logo.png" type="image/png">
-    <title>Yesid Bejarano</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="This is my CV website">
+  <meta name="author" content="Yesid Bejarano Camacho">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rochester"/>
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Arvo" />
+  <link id="favicon" rel="icon" href="images/logo.png" type="image/png">
+  <title>Yesid Bejarano</title>
 
-    <link rel="stylesheet" href="https://bootswatch.com/3/simplex/bootstrap.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body data-spy="scroll" data-target="#myTopnav" data-offset="50">
-      <div class="nav">
-          <div class="nav-header">
-            <div id="nav-home" class="nav-title">
-              Yesid Bejarano
-            </div>
-          </div>
-          <div class="nav-btn">
-            <label for="nav-check">
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-          </div>
-          <input type="checkbox" id="nav-check">
-          <div class="nav-links">
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#exp">Experience</a>
-            <a href="#hobbies">Hobbies</a>
-            <a href="#contact">Contact</a>
-          </div>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rochester" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Arvo" />
+
+  <link rel="stylesheet" href="https://bootswatch.com/3/simplex/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body data-spy="scroll" data-target="#myTopnav" data-offset="50">
+  <div class="nav">
+    <div class="nav-header">
+      <div id="nav-home" class="nav-title">
+        Yesid Bejarano
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    <input type="checkbox" id="nav-check">
+    <div class="nav-links">
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#exp">Experience</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <header id="codeheader" role="banner"></header>
+  <div class="content" id="about">
+    <h1 class="left">
+      <img class="round-image" src="images/profile.jpg" title="Yesid Bejarano" alt="Profile picture of Yesid Bejarano">
+      <br> Yesid A. Bejarano Camacho
+    </h1>
+    <p class="parag">My name is Yesid Alexander Bejarano Camacho, I am 20 years old, I am a systems engineering student at
+      the University of the Andes located in Bogotá, Colombia. I am currently in the last semester. My main interests are
+      videogames development and cybersecurity. </p>
+
+  </div>
+  <div class="content" id="skills">
+    <h1 class="center">Skills</h1>
+    <h2 class="center">Programming Skills</h1>
+  </div>
+  <div class="flex-wrapper">
+    <div class="single-chart">
+      <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
+        <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <text x="18" y="20.35" class="percentage">C#</text>
+      </svg>
+    </div>
+
+    <div class="single-chart">
+      <svg viewBox="0 0 36 36" class="circular-chart darkblue">
+        <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <text x="18" y="20.35" class="percentage">Java</text>
+      </svg>
+    </div>
+    <div class="single-chart">
+      <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
+        <path class="circle-bg" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <text x="18" y="20.35" class="percentage">SQL</text>
+      </svg>
+    </div>
+  </div>
+  <div class="flex-wrapper">
+    <div class="single-chart">
+      <svg viewBox="0 0 36 36" class="circular-chart darkblue">
+        <path class="circle-bg" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <text x="18" y="20.35" class="percentage">HTML</text>
+      </svg>
+    </div>
+
+    <div class="single-chart">
+      <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
+        <path class="circle-bg" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <path class="circle" stroke-dasharray="50, 100" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+        <text x="18" y="20.35" class="percentage">Unity</text>
+      </svg>
+    </div>
+
+    <div class="single-chart">
+        <svg viewBox="0 0 36 36" class="circular-chart darkblue">
+          <path class="circle-bg" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <path class="circle" stroke-dasharray="45, 100" d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <text x="18" y="20.35" class="percentage">Python</text>
+        </svg>
+      </div>
+
+  </div>
+  <div class="flex-wrapper">
+      <div class="single-chart">
+        <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
+          <path class="circle-bg" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+                        a 15.9155 15.9155 0 0 1 0 31.831
+                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+          <text x="18" y="20.35" class="percentage">JavaSc</text>
+        </svg>
+      </div>
+      <div class="single-chart">
+          <svg viewBox="0 0 36 36" class="circular-chart darkblue">
+            <path class="circle-bg" d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <path class="circle" stroke-dasharray="25, 100" d="M18 2.0845
+                          a 15.9155 15.9155 0 0 1 0 31.831
+                          a 15.9155 15.9155 0 0 1 0 -31.831" />
+            <text x="18" y="20.35" class="percentage">C/C++</text>
+          </svg>
         </div>
+    </div>
+  <div class="content">
+      <h2 class="center">Other Skills</h1>
+      <div class="col-sm-6 abajo"> 
+          <h3 class="left">Language</h3>
+          <img src="images/language.jpg" id="flag"/>
+          <p class="desc">Spanish native speaker and fluent in english.</p>
+      </div>
+      <div class="col-sm-6 abajo">
+          <h3 class="left">Personal Habilities</h3>
+          <ul class="list">
+            <li>Fast learner.</li>
+            <li>Great working with others.</li>
+            <li>Autonomous learner.</li>
+            <li>Leadership in work teams.</li>
+            <li>good at solving computing and coding related problems.</li>
+          </ul>
+      </div>
+      
+    </div>
+  
 
-        <header id="codeheader" role="banner"></header>
-        <div class="content" id="about">
-            <h1 class="left">
-              <img class="round-image" src="images/profile.jpg" title="Yesid Bejarano" alt="Profile picture of Yesid Bejarano">
-              <br>
-              Yesid A. Bejarano Camacho
-            </h1>
-            <p class="parag">My name is Yesid Alexander Bejarano Camacho, I am 20 years old, I am a systems engineering student at the University of the Andes located in Bogotá, Colombia. I am currently in the last semester.
-                My main interests are videogames development and cybersecurity. </p>
-            
-          </div>
-        
 
-  </body>
+
+</body>
 
 </html>
