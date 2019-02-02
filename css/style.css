@@ -166,6 +166,7 @@
     padding-bottom: 70px;
     position: relative;
     top: -43em;
+    padding-top: 70px;
   }
   .list{
     position: relative;
@@ -273,15 +274,13 @@
       flex-flow: column;
       position: relative;
       top: -550px;
+      padding-top: 100px;
     }
     #about img {
       display: flex;
       flex-flow: column;
-      position: relative;
-      width: auto;
+      position: relative; 
       height: 25vh;
-      margin: auto;
-      margin-bottom: 3vh;
       float: center;
     }
     #codeheader{
