@@ -8,6 +8,12 @@
   #codeimg{
     z-index: 900;
   }
+  #apo2, #sec, #u235{
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+    margin-bottom: 3vh;
+  }
 
   #about {
     width: 100vw;
@@ -31,7 +37,7 @@
     height:30vw;
     opacity: 0.6;
     position: relative;
-    top:5em;
+    top:-2em;
   }
 
   #flag{
@@ -159,10 +165,10 @@
   }
   .content {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
     position: relative;
     top: -43em;
-    padding-top: 70px;
+    padding-top: 30px;
   }
   .list{
     position: relative;
@@ -197,6 +203,7 @@
     font-size: 3em;
     color: #000000;
     font-weight: bold;
+    text-decoration: underline;
     
   }
   h2 {
@@ -210,8 +217,20 @@
     margin-left: 300px;
     
   }
+  p{
+    font-size: 25px;
+    left:80px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #000000;
+  }
   li{
     font-size: 30px;
+  }
+  a{
+    color: purple;
+    font-weight: bold;
+    
   }
   @media (max-width:1650px){
     #about{
@@ -307,6 +326,44 @@
       height: 100vw;
       opacity: 0.4;
     }
+    #flag{
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      width: 100%;
+      left:-10px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    .subt{
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      width: 100%;
+      left:-10px;
+      margin-left: 10px;
+      text-align: center;
+    }
+    .desc {
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      width: 100%;
+      left:-10px;
+      margin-left: 10px;
+      text-align: center;
+      font-size: 25px;
+    }
+    .list{
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      width: 100%;
+      left:-10px;
+      margin-left: 10px;
+      text-align: justify;
+      font-size: 25px;
+    }
     .parag {
       font-size: 25px;
       color: #000000; 
@@ -314,7 +371,7 @@
       position: relative;
       left: 20px;
       text-align: justify;
-      padding-top: 10px;
+      padding-top: 15px;
     }
     
 
