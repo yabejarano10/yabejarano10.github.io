@@ -217,7 +217,7 @@
   li{
     font-size: 30px;
   }
-  @media (max-width:768px) {
+  @media (max-width:365px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -268,6 +268,7 @@
       flex-flow: column;
       position: relative;
       top: -550px;
+
     }
     html, body {
       max-width: 100%;
@@ -277,9 +278,10 @@
       display: flex;
       flex-flow: column;
       position: relative;
-      top: -750px;
       padding-top: 100px;
       float: initial;
+      top: -400px;
+      width: 100%;
     }
     #about img {
       display: flex;
@@ -296,12 +298,13 @@
       height: 100vw;
     }
     .parag {
-      font-size: 30px;
+      font-size: 25px;
       color: #000000; 
       margin-right: 35px;
       position: relative;
       left: 20px;
       text-align: justify;
+      padding-bottom: 50px;
     }
     
 
