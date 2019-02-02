@@ -1,3 +1,4 @@
+  /*-------------------IDS-------------------------------------------*/
   #nav-home {
     font-family: Rochester;
     color: rgb(113, 15, 194);
@@ -46,12 +47,8 @@
   * {
     box-sizing: border-box;
   }
-  
-  body {
-    margin: 0px;
-    font-family: 'segoe ui';
-  }
-  
+
+  /*------------------------------------CLASES------------------------------------*/
   .flex-wrapper {
     display: flex;
     flex-flow: row nowrap;
@@ -188,6 +185,16 @@
     display: none;
   }
   
+  /*-----------------------------------TIPOS-------------------------*/
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
   h1 {
     font-family: 'Arvo'; 
     font-size: 3em;
@@ -209,7 +216,7 @@
   li{
     font-size: 30px;
   }
-  @media (max-width:600px) {
+  @media (max-width:768px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -255,4 +262,34 @@
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+    .content {
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      top: -550px;
+    }
+    #about{
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      top: -550px;
+    }
+    #about img {
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      width: auto;
+      height: 25vh;
+      margin: auto;
+      margin-bottom: 3vh;
+      float: center;
+    }
+    #codeheader{
+      display: flex;
+      flex-flow: column;
+      position: relative;
+      height: 70vw;
+    }
+    
+
   }
