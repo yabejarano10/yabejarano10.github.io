@@ -12,12 +12,8 @@
   #about {
     width: 100vw;
     position: relative;
-    /*Trick to make the bacground fill the whole width*/
-    left: 50%;
-    margin-left: -50vw;
-    padding-bottom: 5vh;
+    margin: auto;
     overflow: hidden;
-    top:-40em;
   }
 
   #about img {
@@ -217,6 +213,19 @@
   li{
     font-size: 30px;
   }
+  @media (max-width:1650px){
+    #about{
+      width: 100vw;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+      top: -400px;
+      padding-bottom: 20vh;
+    }
+    .parag{
+      padding-bottom: 50px;
+    }
+  } 
   @media (max-width:365px) {
     .nav > .nav-btn {
       display: inline-block;
@@ -288,14 +297,15 @@
       flex-flow: column;
       position: relative; 
       height: 25vh;
-      float: center;
+      float: left;
     }
     #codeheader{
       display: flex;
       flex-flow: column;
       position: relative;
-      top:-50px;
+      top:-90px;
       height: 100vw;
+      opacity: 0.4;
     }
     .parag {
       font-size: 25px;
@@ -304,7 +314,7 @@
       position: relative;
       left: 20px;
       text-align: justify;
-      padding-bottom: 50px;
+      padding-top: 10px;
     }
     
 
