@@ -277,8 +277,9 @@
       display: flex;
       flex-flow: column;
       position: relative;
-      top: -550px;
+      top: -750px;
       padding-top: 100px;
+      float: initial;
     }
     #about img {
       display: flex;
@@ -291,7 +292,16 @@
       display: flex;
       flex-flow: column;
       position: relative;
-      height: 70vw;
+      top:-50px;
+      height: 100vw;
+    }
+    .parag {
+      font-size: 30px;
+      color: #000000; 
+      margin-right: 35px;
+      position: relative;
+      left: 20px;
+      text-align: justify;
     }
     
 
