@@ -1,8 +1,8 @@
+::-moz-selection { background: rgb(113, 15, 194); 
+  color: white;}
+::selection { background: rgb(113, 15, 194); 
+  color: white;}
   /*-------------------IDS-------------------------------------------*/
-  ::-moz-selection { background: rgb(113, 15, 194); 
-    color: white;}
-  ::selection { background: rgb(113, 15, 194); 
-    color: white;}
   #nav-home {
     font-family: Rochester;
     color: rgb(113, 15, 194);
@@ -11,6 +11,19 @@
     top: -25px;
   }
 
+  #controller{
+    width: 30vh;
+    height: 20vh;
+    margin: auto;
+    margin-bottom: 3vh;
+    margin-top: 3vw;
+  }
+  #dance{
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+    margin-bottom: 3vh;
+  }
   #codeimg{
     z-index: 900;
   }
@@ -49,7 +62,7 @@
   #flag{
     position: relative;
     left: 210px;
-    width: 300px;
+    width: 250px;
     height: 200px;
   }
   * {
@@ -95,6 +108,9 @@
     }
   }
   
+  .subt{
+    font-weight: bold;
+  }
   .circular-chart.darkblue .circle {
     stroke: #2600ff;
     position: relative;
@@ -174,7 +190,7 @@
   }
   .content {
     padding-top: 70px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     position: relative;
     top: -43em;
     padding-top: 30px;
@@ -241,6 +257,8 @@
     font-size: 30px;
     font-family: 'Crimson Text', Georgia, Times, serif;
     color: #000000;
+    padding-right: 70px;
+    max-width: 100%;
   }
   a{
     color: rgb(106, 26, 172);
@@ -255,6 +273,7 @@
       overflow: hidden;
       top: -400px;
       padding-bottom: 20vh;
+      padding-top: 10vh;
     }
     .parag{
       padding-bottom: 50px;
@@ -346,9 +365,10 @@
       flex-flow: column;
       position: relative;
       width: 100%;
-      left:-10px;
-      margin-left: 10px;
+      left:10vh;
       text-align: center;
+      width: 30vh;
+      height: 200px;
     }
     .subt{
       display: flex;
@@ -358,6 +378,7 @@
       left:-10px;
       margin-left: 10px;
       text-align: center;
+      font-weight: bold;
     }
     .desc {
       display: flex;
@@ -367,7 +388,7 @@
       left:-10px;
       margin-left: 10px;
       text-align: center;
-      font-size: 25px;
+      font-size: 30px;
     }
     .list{
       display: flex;
