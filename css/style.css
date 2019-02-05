@@ -6,7 +6,9 @@
   #nav-home {
     font-family: Rochester;
     color: rgb(113, 15, 194);
-    font-size: 30px;
+    font-size: 55px;
+    position: relative;
+    top: -25px;
   }
 
   #codeimg{
