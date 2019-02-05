@@ -1,4 +1,8 @@
   /*-------------------IDS-------------------------------------------*/
+  ::-moz-selection { background: rgb(113, 15, 194); 
+    color: white;}
+  ::selection { background: rgb(113, 15, 194); 
+    color: white;}
   #nav-home {
     font-family: Rochester;
     color: rgb(113, 15, 194);
@@ -155,6 +159,7 @@
     margin-right: 15px;
     position: relative;
     left: 20px;
+    max-width: 100%;
   }
   .desc {
     font-size: 30px;
@@ -162,6 +167,8 @@
     margin-left: 15px;
     position: relative;
     left: 80px;
+    max-width: 100%;
+    padding-right: 15px;
   }
   .content {
     padding-top: 70px;
@@ -173,6 +180,8 @@
   .list{
     position: relative;
     left: 100px;
+    max-width: 100%;
+    padding-right: 15px;
   }
   
   .round-image {
@@ -199,16 +208,16 @@
   }
 
   h1 {
-    font-family: 'Arvo'; 
+    font-family: 'Arvo', Georgia, Times, serif;
     font-size: 3em;
-    color: #000000;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
     
   }
   h2 {
     font-size: 2.5em;
-    color: #000000;
+    color: rgb(106, 26, 172);
     font-weight: bold;
   }
   h3 {
@@ -218,17 +227,21 @@
     
   }
   p{
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    max-width: 100%;
     font-size: 25px;
     left:80px;
     margin-left: 15px;
-    margin-right: 15px;
+    padding-right: 30px;
     color: #000000;
   }
   li{
     font-size: 30px;
+    font-family: 'Crimson Text', Georgia, Times, serif;
+    color: #000000;
   }
   a{
-    color: purple;
+    color: rgb(106, 26, 172);
     font-weight: bold;
     
   }
@@ -245,7 +258,7 @@
       padding-bottom: 50px;
     }
   } 
-  @media (max-width:365px) {
+  @media (max-width:768px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
