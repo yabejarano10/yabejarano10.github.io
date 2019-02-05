@@ -210,6 +210,10 @@
     background-color: rgba(136, 136, 136, 0.3);
     color: purple;
   }
+  .activehover{
+    background-color: rgba(136, 136, 136, 0.3);
+    color: purple;
+  }
   
   .nav > #nav-check {
     display: none;
@@ -224,7 +228,6 @@
     max-width: 100%;
     overflow-x: hidden;
   }
-
   h1 {
     font-family: 'Arvo', Georgia, Times, serif;
     font-size: 3em;
