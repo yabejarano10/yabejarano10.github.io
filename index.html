@@ -16,40 +16,13 @@
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-        });
-        } // End if
-    });
-    
-    });
-
-    </script>
+  <script src="scripts/main.js"></script>
 
   <link rel="stylesheet" href="https://bootswatch.com/3/simplex/bootstrap.min.css">
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body data-spy="scroll" data-target=".nav" data-offset="50">
+<body data-spy="scroll" data-target="#myTopnav" data-offset="50">
   <div class="nav">
     <div class="nav-header">
       <div id="nav-home" class="nav-title">
@@ -63,11 +36,13 @@
         <span></span>
       </label>
     </div>
-    <div id="linksmenu" class="nav-links">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-links">
       <a href="#about" >About Me</a>
       <a href="#skills">Skills</a>
       <a href="#exp">Experience</a>
       <a href="#hobbies">Hobbies</a>
+      <a href="#education">Education</a>
       <a href="#contact">Contact</a>
     </div>
   </div>
@@ -288,18 +263,83 @@
       </div>
       <div class="col-sm-4 center">
           <div class="image-crop">
-              <img  id="dance" src="images/jumping-dancer.png" alt="apo2 logo">
+              <img  id="dance" src="images/dance.png" alt="apo2 logo">
           </div>
           <p class="center">
-              <strong>App development</strong>
+              <strong>Urban Dancer</strong>
           </p>
           <p>
-              I created an app to manage deliveries of a restaurant called <a href="https://www.facebook.com/BeerAndBurger12/" target="_blank">The Corner Twelve.</a>
+              I belong to a urban dance group in college called <a href="https://www.youtube.com/channel/UCuagVe0J-5026DNwAVInv5Q" target="_blank">TX-ONE</a>
           </p>
       </div>
   </div>
   </div>
-      
+  <div class="content arrow">
+    <span></span>
+    <span></span>
+    <span></span>
+
+    </div>
+    <div class="content">
+        <h2 class = "center">Media</h2>
+        <iframe width="560" height="415" src="https://www.youtube.com/embed/N3Ym7PIvGKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="content" id="education">
+        <h1 class="center">Academic Formation</h1>
+        <div class="wrapper">
+                <section class="block">
+                  <div class="each-year">
+                    <div class="title">2014</div>
+                    <div class="each-event">
+                      <div class="event-description">
+                        TEXTO
+                      </div>
+                    </div>
+                  
+                  <div class="each-event">
+                    <div class="event-description">
+                      TEXTO
+                    </div>
+                  </div>
+                  
+                  <div class="each-event">
+                    <div class="event-description">
+                      TEXTO
+                    </div>
+                  </div>
+                  
+                  <div class="each-event">
+                    <div class="event-description">
+                      TEXTO
+                    </div>
+                  </div>
+                  
+                  <div class="each-event">
+                    <div class="event-description">
+                      TEXTO
+                    </div>
+                  </div>
+                
+                    <div class="each-event">
+                      <div class="event-description">
+                        TEXTO
+                      </div>
+                    </div>
+                    </div>
+                </section>
+                
+                <section class="block">
+                  <div class="each-year">
+                  <div class="title">2015</div>
+                    <div class="each-event">
+                      <div class="event-description">
+                        TEXTO
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                </div>
+    </div>
   
 
 
