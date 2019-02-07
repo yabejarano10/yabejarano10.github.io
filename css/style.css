@@ -116,6 +116,9 @@
     }
 }
   /*-------------------IDS-------------------------------------------*/
+  #audio{
+    display: none;
+  }
   #nav-home {
     font-family: Rochester;
     color: rgb(113, 15, 194);

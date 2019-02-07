@@ -22,11 +22,16 @@ $(document).ready(function(){
         } // End if
     });
 
+    $("footer").on('click', function play(){
+        var audio = document.getElementById("audio");
+        audio.play();
+    });
+
     var $element=$('.each-event, .title');
-var $window = $(window);
-$window.on('scroll resize', check_for_fade);
-$window.trigger('scroll');
-function check_for_fade() { 
+    var $window = $(window);
+    $window.on('scroll resize', check_for_fade);
+    $window.trigger('scroll');
+    function check_for_fade() { 
     var window_height = $window.height();
     
     $.each($element, function (event) {
