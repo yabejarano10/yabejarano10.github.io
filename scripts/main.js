@@ -25,6 +25,7 @@ $(document).ready(function(){
     $("footer").on('click', function play(){
         var audio = document.getElementById("audio");
         audio.play();
+        $(".round-image.profile").attr("src","images/face.jpg");
     });
 
     var $element=$('.each-event, .title');
