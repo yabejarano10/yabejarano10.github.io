@@ -444,7 +444,7 @@
       margin-left: calc(50% + 20px);
     } 
     .each-event:nth-child(even):before {
-      left: calc(100% - 41vh);
+      left: calc(100% - 38.5vh);
     }
     .nav > .nav-btn {
       display: inline-block;
