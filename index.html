@@ -142,9 +142,43 @@
 
     </div>
     <div class="content">
-        <h2 class="center">Media</h2>
-        <iframe width="560" height="415" src="https://www.youtube.com/embed/N3Ym7PIvGKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+        <div class="row justify-content-center">
+            <div class="col-sm-4 abajo">
+                <h2 class="center">Some of my favorite songs</h2>
+                <div id="songsdiv">
+                    <ul id="songs">
+                        <li><audio id="song" controls>
+                                <source src="audios/humble.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio></li>
+                        <li id="song2"><audio id="song" controls>
+                                <source src="audios/recal.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio></li>
+                        <li id="song2"><audio id="song" controls>
+                                <source src="audios/must.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio></li>
+                        <li id="song2"><audio id="song" controls>
+                                <source src="audios/ataque.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4 abajo">
+                <h2 class="center">One of my dance videos</h2>
+                <iframe width="560" height="415" src="https://www.youtube.com/embed/N3Ym7PIvGKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-4 abajo">
+                <h2 class="center">My favorite game</h2>
+                <div id="game" class="image-crop">
+                    <img id="norm" src="images/normandy.png" alt="spaceship">
+                </div>
+            </div>
+        </div>
     </div>
     <div class="content" id="skills">
         <h1 class="center">Skills</h1>
@@ -374,8 +408,8 @@
             </div>
         </div>
     </div>
-    <audio id="audio">
-        <source src="images/allstar.mp3" type="audio/mpeg">
+    <audio id="easter">
+        <source src="audios/allstar.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <footer id="copyright">
