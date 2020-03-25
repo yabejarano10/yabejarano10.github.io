@@ -1,421 +1,299 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="This is my CV website">
-    <meta name="author" content="Yesid Bejarano Camacho">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link id="favicon" rel="icon" href="images/logo.png" type="image/png">
-    <title>Yesid Bejarano's Webpage</title>
-
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Rochester" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Arvo" />
-    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="scripts/main.js"></script>
-
-    <link rel="stylesheet" href="https://bootswatch.com/3/simplex/bootstrap.min.css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yesid Bejarano Camacho</title>
+    <link rel="icon" href="img/icon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target="#myTopnav" data-offset="50">
-    <div class="nav">
-        <div class="nav-header">
-            <div id="nav-home" class="nav-title">
-                Yesid Bejarano
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+    <!-- ./Preloader -->
+
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ./header -->
+
+    <!-- home -->
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                    <h4>Yesid Bejarano Camacho</h4>
+                    <h1>Videogame &<br /> Software Developer</h1>
+                </div>
             </div>
         </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-        <input type="checkbox" id="nav-check">
-        <div class="nav-links">
-            <a href="#about">About Me</a>
-            <a href="#education">Education</a>
-            <a href="#hobbies">Hobbies</a>
-            <a href="#skills">Skills</a>
-            <a href="#exp">Experience</a>
-            <a href="#contact">Contact</a>
-        </div>
     </div>
+    <!-- ./home -->
 
-    <header id="codeheader" role="banner"></header>
-    <div class="content" id="about">
-        <h1 class="left">
-            <img class="round-image profile" src="images/profile.jpg" title="Yesid Bejarano" alt="Profile picture of Yesid Bejarano">
-            <br> Yesid A. Bejarano Camacho
-        </h1>
-        <p class="parag">My name is Yesid Alexander Bejarano Camacho, I am 20 years old, I am a systems engineering
-            student at
-            the University of the Andes located in Bogotá, Colombia. I am currently in the last semester. My main
-            interests are
-            videogames development and cybersecurity, with skills for
-            desktop application development and databases management.</p>
+    <!-- about -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4>01</h4>
+                <h1 class="size-50">Know <br /> About me</h1>
+                <div class="h-50"></div>
+                <p>Software developer with experience in .NET technologies and web development with Angular framework
+                    and typescript</p>
+                <p>Video game developer with experience in Unity and Unreal Engine 4.</p>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-6 about-img-div">
+                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
+                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" align="right"
+                    data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
     </div>
-    <div class="content" id="education">
-        <h1 class="center">Academic Formation</h1>
-        <div class="wrapper">
-            <section class="block">
-                <div class="each-year">
-                    <div class="title">2014</div>
-                    <div class="each-event">
-                        <div class="event-description">
-                            I obtained a certification from the university Santo Tomás for taking the first robotics
-                            course given at the school.
+    <!-- ./about -->
+
+    <!-- experience  -->
+    <div class="section" id="experience">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>02</h4>
+                <h1 class="size-50">My <br /> Experience</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">January 2020 - Present</p>
+                            <h3>.NET Software developer</h3>
+                            <h4>Sincosoft</h4>
+                            <p>Development, maintenance and update of the SGD module of the SincoERP platform
+                                <br><br>.NET framework. ASP.NET MVC. Angular. Typescript. C#. SQL Server.</p>
                         </div>
-                    </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">June 2019 - August 2019</p>
+                            <h3>Consultant / developer</h3>
+                            <h4>2Secure S.A.S.</h4>
+                            <p>Software maintenance and implementation of web portal for the visualization of
+                                vulnerabilities and customer statistics based on previous Ethical Hacking projects and
+                                analyzes.
 
-                    <div class="each-event">
-                        <div class="event-description">
-                            Got graduated from Colegio Agutiniano Tagaste.
+                                <br><br>C #. ASP.NET MVC. SQL Server.</p>
                         </div>
-                    </div>
-                </div>
-            </section>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">June 2018 - January 2019</p>
+                            <h3>Intern</h3>
+                            <h4>2Secure S.A.S.</h4>
+                            <p>Development of desktop software that allows uploading vulnerability files of story tools
+                                such as NESSUS and Appscan, containing various vulnerabilities in a database and
+                                allowing the generation of ethical piracy reports automatically based on the project and
+                                parameters of the consultant.
 
-            <section class="block">
-                <div class="each-year">
-                    <div class="title">2015 - Present</div>
-                    <div class="each-event">
-                        <div class="event-description">
-                            Studying systems engineering at the University of the Andes
+                                <br><br>Winforms C #. SQL server. .NET Framework.</p>
                         </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <div class="content" id="hobbies">
-        <h1 class="center">Hobbies</h1>
-        <div class="row justify-content-center abajo">
-            <div class="col-sm-4 center">
-                <div class="image-crop">
-                    <img id="controller" src="images/controller.png" alt="game controller">
-                </div>
-                <p class="center">
-                    <strong>Videogames</strong>
-                </p>
-                <p>
-                    Passionate about videogames and all the things that surround them. Videogames are my principal
-                    hobbie and one of my principal passions.
-                </p>
-            </div>
-            <div class="col-sm-4 center">
-                <div class="image-crop">
-                    <img id="sax" src="images/sax.png" alt="sax icon">
-                </div>
-                <p class="center">
-                    <strong>Amateur Musician</strong>
-                </p>
-                <p>
-                    I studied tenor saxophone from 2014 to 2016 in the music fundation Batuta
-                    and since 2016 y study by myself. Also I play bass and acoustic guitar since 2011.
-                </p>
-            </div>
-            <div class="col-sm-4 center">
-                <div class="image-crop">
-                    <img id="dance" src="images/dance.png" alt="apo2 logo">
-                </div>
-                <p class="center">
-                    <strong>Urban Dancer</strong>
-                </p>
-                <p>
-                    I dance since I was a kid and currently I belong to a urban dance group in college called <a href="https://www.youtube.com/channel/UCuagVe0J-5026DNwAVInv5Q"
-                        target="_blank">TX-ONE</a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="content arrow">
-        <span></span>
-        <span></span>
-        <span></span>
-
-    </div>
-    <div class="content">
-        <div class="row justify-content-center">
-            <div class="col-sm-4 abajo">
-                <h2 class="center">Some of my favorite songs</h2>
-                <div id="songsdiv">
-                    <ul id="songs">
-                        <li><audio id="song" controls>
-                                <source src="audios/humble.mp3" type="audio/mpeg">
-                                Your browser does not support the audio element.
-                            </audio></li>
-                        <li id="song2"><audio id="song" controls>
-                                <source src="audios/recal.mp3" type="audio/mpeg">
-                                Your browser does not support the audio element.
-                            </audio></li>
-                        <li id="song2"><audio id="song" controls>
-                                <source src="audios/must.mp3" type="audio/mpeg">
-                                Your browser does not support the audio element.
-                            </audio></li>
-                        <li id="song2"><audio id="song" controls>
-                                <source src="audios/ataque.mp3" type="audio/mpeg">
-                                Your browser does not support the audio element.
-                            </audio></li>
-
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4 abajo">
-                <h2 class="center">One of my dance videos</h2>
-                <iframe width="560" height="415" src="https://www.youtube.com/embed/N3Ym7PIvGKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="col-sm-4 abajo">
-                <h2 class="center">My favorite game</h2>
-                <div id="game" class="image-crop">
-                    <img id="norm" src="images/normandy.png" alt="spaceship">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="content" id="skills">
-        <h1 class="center">Skills</h1>
-        <h2 class="center">Programming Skills</h2>
-    </div>
-    <div id="piechart" class="flex-wrapper">
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
-                <path class="circle-bg" d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">C#</text>
-            </svg>
-        </div>
-
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkblue">
-                <path class="circle-bg" d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">Java</text>
-            </svg>
-        </div>
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
-                <path class="circle-bg" d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845
-                    a 15.9155 15.9155 0 0 1 0 31.831
-                    a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">SQL</text>
-            </svg>
-        </div>
-    </div>
-    <div class="flex-wrapper">
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkblue">
-                <path class="circle-bg" d="M18 2.0845
-                      a 15.9155 15.9155 0 0 1 0 31.831
-                      a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845
-                      a 15.9155 15.9155 0 0 1 0 31.831
-                      a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">HTML</text>
-            </svg>
-        </div>
-
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
-                <path class="circle-bg" d="M18 2.0845
-                      a 15.9155 15.9155 0 0 1 0 31.831
-                      a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="50, 100" d="M18 2.0845
-                      a 15.9155 15.9155 0 0 1 0 31.831
-                      a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">Unity</text>
-            </svg>
-        </div>
-
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkblue">
-                <path class="circle-bg" d="M18 2.0845
-                      a 15.9155 15.9155 0 0 1 0 31.831
-                      a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="45, 100" d="M18 2.0845
-                      a 15.9155 15.9155 0 0 1 0 31.831
-                      a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">Python</text>
-            </svg>
-        </div>
-
-    </div>
-    <div class="flex-wrapper">
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkpurple">
-                <path class="circle-bg" d="M18 2.0845
-                        a 15.9155 15.9155 0 0 1 0 31.831
-                        a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
-                        a 15.9155 15.9155 0 0 1 0 31.831
-                        a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">JavaSc</text>
-            </svg>
-        </div>
-        <div class="single-chart">
-            <svg viewBox="0 0 36 36" class="circular-chart darkblue">
-                <path class="circle-bg" d="M18 2.0845
-                          a 15.9155 15.9155 0 0 1 0 31.831
-                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <path class="circle" stroke-dasharray="25, 100" d="M18 2.0845
-                          a 15.9155 15.9155 0 0 1 0 31.831
-                          a 15.9155 15.9155 0 0 1 0 -31.831" />
-                <text x="18" y="20.35" class="percentage">C/C++</text>
-            </svg>
-        </div>
-    </div>
-    <div class="content" id="otherskills">
-        <h2 class="center">Other Skills</h2>
-        <div class="row justify-content-center" id="languages">
-            <div class="col-sm-6 abajo">
-                <h3 class="subt">Language</h3>
-                <img src="images/language.png" id="flag" />
-                <p class="desc">Spanish native speaker and fluent in english.</p>
-            </div>
-            <div class="col-sm-6 abajo">
-                <h3 class="subt">Personal Habilities</h3>
-                <ul class="list">
-                    <li>Fast learner.</li>
-                    <li>Great working with others.</li>
-                    <li>Autonomous learner.</li>
-                    <li>Leadership in work teams.</li>
-                    <li>good at solving computing and coding related problems.</li>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="content" id="exp">
-        <h1 class="center">Projects And Working Experiences</h1>
-        <h2 class="center">Work Experience</h2>
-        <div class="row justify-content-center abajo">
-            <div class="col-sm-6 center">
-                <div class="image-crop">
-                    <img class="round-image" id="apo2" src="images/apo2.jpg" alt="apo2 logo">
-                </div>
-                <p class="center">
-                    <strong>Programming Tutor</strong>
-                </p>
-                <p>
-                    I worked 6 months as a programming tutor at
-                    <a href="https://cupitaller.uniandes.edu.co" target="_blank">CupiTaller Uniandes.</a>
-                </p>
+    <!-- ./experience -->
+
+    <!-- projects -->
+    <div class="section" id="projects">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>03</h4>
+                <h1 class="size-50">My <br /> Projects</h1>
             </div>
-            <div class="col-sm-6 center">
-                <div class="image-crop">
-                    <img class="filler-partial" id="sec" src="images/2s.png" alt="The logo of 2Secure Company">
+            <!-- main container -->
+            <div class="main-container portfolio-inner clearfix">
+                <!-- portfolio div -->
+                <div class="portfolio-div">
+                    <div class="portfolio">
+                        <!-- portfolio_filter -->
+                        <div class="categories-grid wow fadeInLeft">
+                            <nav class="categories">
+                                <ul class="portfolio_filter">
+                                    <li><a href="" class="active" data-filter="*">All</a></li>
+                                    <li><a href="" data-filter=".games">Games</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- portfolio_filter -->
+
+                        <!-- portfolio_container -->
+                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6  fashion games">
+                                <a id="demo01" href="#animatedModal" class="portfolio_item"> <img
+                                        src="img/portfolio/Thesis1.jpeg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Land repair Simulator</span> <em>Unity 3D
+                                                    VR</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 ads games">
+                                <a id="demo02" href="#animatedModal" class="portfolio_item"> <img
+                                        src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>U-235</span> <em>Unity 3D</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 games">
+                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img
+                                        src="img/portfolio/honorKill.png" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info"> <span>Honor Kill (On going project)</span>
+                                                <em>Unity 2D</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                        </div>
+                        <!-- end portfolio_container -->
+                    </div>
+                    <!-- portfolio -->
                 </div>
-                <p class="center">
-                    <strong>Consultant/Developer</strong>
-                </p>
-                <p>
-                    I Worked during 6 months as a software developer and a consultant in the cybersecurity company,
-                    <a href="https://www.2secure.co" target="_blank">2Secure.</a>
-                </p>
+                <!-- end portfolio div -->
             </div>
+            <!-- end main container -->
         </div>
-        <h2 class="center">Projects</h2>
-        <div class="row justify-content-center abajo">
-            <div class="col-sm-6 center">
-                <div class="image-crop">
-                    <img class="round-image" id="u235" src="images/u235.jpg" alt="mini of the game">
-                </div>
-                <p class="center">
-                    <strong>Game development</strong>
-                </p>
-                <p>
-                    I Made a game called <a href="https://gamejolt.com/games/u235/282620" target="_blank">U-235</a>
-                    during a 24 hour GameJam with a team of 4 other systems engineering students.
-                </p>
+    </div>
+    <!-- ./projects -->
+
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>04</h4>
+                <h1 class="size-50">Contact Me</h1>
+                <div class="h-50"></div>
             </div>
-            <div class="col-sm-6 center">
-                <div class="image-crop">
-                    <img class="round-image" id="u235" src="images/twelve.png" alt="apo2 logo">
-                </div>
-                <p class="center">
-                    <strong>App development</strong>
-                </p>
-                <p>
-                    I created an app to manage deliveries of a restaurant called <a href="https://www.facebook.com/BeerAndBurger12/"
-                        target="_blank">The Corner Twelve.</a>
-                </p>
+            <div class="col-md-4" data-aos="fade-up">
+
+                <h3> Mobile Numberr</h3>
+                <p>+57 3107753329</p>
+                <h3>Email</h3>
+                <p>ybejaranocamacho@gmail.com </p>
+
+                <h3>Social Network</h3>
+
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/abcYesid" target="_blank"><i
+                                class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/yabc12/" target="_blank"><i
+                                class="ion-social-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/purple.comb/" target="_blank"><i
+                                class="ion-social-instagram"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <div class="h-50"></div>
             </div>
         </div>
     </div>
-    <div class="content" id="contact">
-        <h1 class="center">Contact</h1>
-        <div class="row justify-content-center abajo">
-            <div class="col-sm-3 center">
-                <div class="image-crop">
-                    <a href="https://www.facebook.com/abcYesid" target="_blank"><img class="round-image" id="fbimg" src="images/faceblue.png"
-                            alt="facebook logo"></a>
-                    <a href="https://www.facebook.com/abcYesid" target="_blank"><img class="round-image img-top" id="fbimg"
-                            src="images/facepurple.png" alt="purple facebook logo"></a>
+    <!-- ./contact -->
+
+    <!--DEMO01-->
+    <div id="animatedModal" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Geschäfts Eines<br /> Web-Studios</h2>
+                        <div class="h-50"></div>
+                        <p>The game consists of a simulation where the player takes the place of a farmer who must try
+                            to repair his land due to the contamination caused by industrial waste. The simulation runs
+                            through a field that is divided into quadrants that the player must repair through 3 games
+                            that allow him to recreate each of the treatments for the symptoms mentioned above.</p>
+                        <p>The
+                            player has nearby elements with which they must interact in a specific order to successfully
+                            overcome the simulation. The game map has a field that is divided into 15 quadrants that the
+                            player must partially repair in each of the 3 games so that in the end, it is completely
+                            healthy.</p>
+                        <br />
+                        <br /> <img src="img/portfolio/Tutorial3.jpeg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>First of all, for the first game each quadrant is shown with a sign indicating their current
+                            PH level, which is in a range between 0 and 6, the player must take the transparent bottle
+                            of the month and go to each of the quadrants where you must pour the liquid from the bottle
+                            over each one, when doing so the PH number will begin to increase with a random speed. The
+                            objective is to bring the number to a value that is between 7 and 8, in case of exceeding
+                            the range, the ground will be completely damaged and it will not be possible to continue
+                            repairing it in the other stages. </p>
+                        <p>When advancing to the second game, on the quadrants that
+                            have been successfully saved in the first game a message will appear with the word
+                            "Nurture!", this message will appear in a random order on the quadrants and the player must
+                            take the bucket and deposit the content in each of the quadrants as the message appears. In
+                            the case of the second game mode (explained later in this section), the "Nurture" message
+                            will appear for a few seconds and will disappear, in case the player fails to reach the
+                            quadrant before the message disappears, the quadrant in question will be irreparable.</p>
+                        <br />
+                        <br />
+                    </div>
                 </div>
-                <p class="center">
-                    <strong>Facebook</strong>
-                </p>>
-            </div>
-            <div class="col-sm-3 center">
-                <div class="image-crop">
-                    <a href="https://www.linkedin.com/in/yabc12/" target="_blank"><img class="round-image" id="lkimg"
-                            src="images/linkedblue.png" alt="linkedin logo"></a>
-                    <a href="https://www.linkedin.com/in/yabc12/" target="_blank"><img class="round-image img-top" id="lkimg"
-                            src="images/linkedpurple.png" alt="purple linkedin logo"></a>
-                </div>
-                <p class="center">
-                    <strong>Linkedin page</strong>
-                </p>
-            </div>
-            <div class="col-sm-3 center">
-                <div class="image-crop">
-                    <a href="https://github.com/yabejarano10" target="_blank"><img class="round-image" id="lkimg" src="images/githubblue.png"
-                            alt="github logo"></a>
-                    <a href="https://github.com/yabejarano10" target="_blank"><img class="round-image img-top" id="lkimg"
-                            src="images/githubpurple.png" alt="purple github logo"></a>
-                </div>
-                <p class="center">
-                    <strong>Personal Github</strong>
-                </p>
-            </div>
-            <div class="col-sm-3 center">
-                <div class="image-crop">
-                    <a href="https://www.instagram.com/purple.comb/" target="_blank"><img class="round-image" id="lkimg"
-                            src="images/instablue.png" alt="instagram logo"></a>
-                    <a href="https://www.instagram.com/purple.comb/" target="_blank"><img class="round-image img-top"
-                            id="lkimg" src="images/instapurple.png" alt="purple instagram logo"></a>
-                </div>
-                <p class="center">
-                    <strong>Instagram</strong>
-                </p>
             </div>
         </div>
     </div>
-    <audio id="easter">
-        <source src="audios/allstar.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <footer id="copyright">
-        <p class="center">© Yesid Bejarano Camacho
-            <br>2019 </p>
-    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!--  main script  -->
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
